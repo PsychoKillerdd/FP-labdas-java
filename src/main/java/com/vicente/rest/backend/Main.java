@@ -30,4 +30,5 @@ interface Operation{
     static Operation subtracion(){
         return (a,b) -> a - b;
     }
+    //static es una palabra reservada para indicar que es una funcion estatica
 }
